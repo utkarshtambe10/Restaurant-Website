@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Indian (VST)</h2>
+        <div class="text-center">The starters under this category are veg but, majority contain Paneer as the base.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/makhmaliPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 260<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Makhmali Paneer Tikka</h3>
+                        <p class="menu-item-details">Makhmali paneer tikka is a variation to the very famous malai paneer tikka.
+                            True to its name, makhmali paneer tikka is a melt in the mouth paneer starter recipe.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerAngaraKabab250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Angara Kabab</h3>
+                        <p class="menu-item-details">Soft paneer pieces in rich yoghurt-based marination.
+                            This paneer kebab is roasted on the hot charcoal to bring out that rustic flavour, which makes it even more irresistible. 
+                            The spices play an important role in the taste of this kebab.
+                        </p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerSholeKabab250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Shole Kabab</h3>
+                        <p class="menu-item-details">Cubes of Paneer stuffed with cheese, marinated with yogurt, aromatic spices and grilled to perfection!
+                            A must try barbecue recipe.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerHaraBharaKabab250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Bhara Hara Kabab</h3>
+                        <p class="menu-item-details">The kabab is made from chana dal, green peas, paneer, spinach, plain flour, bread crums and Indian spices.
+                            It can be deep-fried or shallow fried on tawa as per customer's choice.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/tikheMushroom250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Tikhe Mushroom</h3>
+                        <p class="menu-item-details">Stuffed mushroom with garlic paste and Indian spices cooked in Tandoor which adds smoky flavour to it.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/alooNazakat250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Aloo Nazakat</h3>
+                        <p class="menu-item-details">Aloo Nazakat is a Tandoori starter dish where crispy fried potato shells are filled with a paneer and potato mixture, marinated in a yogurt sauce and baked.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST07</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerTikka250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 230<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Tikka</h3>
+                        <p class="menu-item-details">Paneer Tikka is a popular and delicious tandoori snack where paneer are marinated in a spiced yogurt-based marinade,
+                            arranged on skewers and grilled in the oven.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST08</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/naandilasPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 190<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Naandilas Paneer</h3>
+                        <p class="menu-item-details">A starter usually served with gravy. A creamy texture of panner which is added with smoky flavour.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+        
+        <h2 id="menu-categories-title" class="text-center">Chinese (VST)</h2>
+        <div class="text-center">Here, are all the starters that are very famous in Indo-Chinese Cuisines.</div>
+        
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST09</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/vegManchurian250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Manchurian</h3>
+                        <p class="menu-item-details">A recipe also an appetizer made with mixed vegetables, soya sauce, tomato sauce and pantry ingredients.
+                            Veg Manchurian is also called as Gobi Manchurian in Indian sub-continent.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST10</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/vegLollypop250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 190<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Lollypop</h3>
+                        <p class="menu-item-details">Veg lollipop are crispy fried balls made with mix vegetable filling.
+                            They are of two types: one made with cauliflower and other with mix veggies.
+                            Basically, a vegetarian alternative to the chicken lollipop version catered for non-meat eaters or vegetarian lovers.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST11</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/schezwanBabyCorn250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Schezwan Babycorn</h3>
+                        <p class="menu-item-details">Marinated the babycorn with soya sauce, salt, ginger garlic paste, red chilli powder and schezwan Chutney.
+                            The, dipped in batter of corn-flour and deep-fried and served with Schezwan Chutney.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST12</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerChilliDry250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 230<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Chilli Dry</h3>
+                        <p class="menu-item-details">Indo-chinese recipe made with paneer cubes and diced capsicum. The recipe is known for its chilli flavour with the creaminess of paneer and spice of indo chinese sauce.
+                            It is an ideal party starter or an appetiser.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST13</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/paneerChettiFry250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Chetti Fry</h3>
+                        <p class="menu-item-details">Paneer Chetti Fry is a simple stir fry recipe made with paneer, onion, tomatoes and herbs-spices.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VST14</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-starter-category/crunchyPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Crunchy Paneer</h3>
+                        <p class="menu-item-details">Crunchy Paneer is a crispy fried paneer tossed in garlic-flavoured little spicy, sweet and sour sauce.
+                            Spring onion greens and sesame seeds make the crispy paneer even more appetizing.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

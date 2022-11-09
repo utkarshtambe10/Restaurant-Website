@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Mutton (NVMC)</h2>
+        <div class="text-center">The starters under this category are veg but, majority contain Paneer as the base.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/kolhapuriMutton250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 470/680<span> (Half/Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Kolhapuri Mutton</h3>
+                        <p class="menu-item-details">Kolhapuri mutton is one of the best tasting Indian mutton dishes.
+                            This dish uses lot of aromatic spices dry roasted and then ground, along with sesame seeds, poppy seeds and dry coconut.
+                        </p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/muttonRoganGhosh250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 330<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Mutton Rogan Josh</h3>
+                        <p class="menu-item-details">Rogan josh consists of pieces of mutton braised with a gravy flavoured with garlic, ginger and aromatic spices and incorporating onions or yogurt.
+                            After initial braising, the dish may be finished using the slow cooking technique.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/muttonKheema250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 330<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Kolhapuri Mutton Kheema</h3>
+                        <p class="menu-item-details">Kolhapuri Mutton Kheema is minced mutton made with authentic Kanda lasoon masala.
+                            This curry is sumptuous,its fiery and delicious, the meat tender and succulent.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/muttonNihari250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 330<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Mutton Nihari</h3>
+                        <p class="menu-item-details">Warm, earthy and spice filled Mutton Nihari is a luxurious stew for the meat lovers!
+                            As the meat cooks, the gravy turns buttery with a gorgeous red hue.
+                            Topped with some fried onions, julienned ginger, green chili and finely chopped cilantro!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+        
+        <h2 id="menu-categories-title" class="text-center">Chicken (NVMC)</h2>
+        <div class="text-center">It is one of the basic ingredients in the so-called white dish, a stew usually consisting of chicken and fried onions cooked in milk and seasoned with spices and sugar.</div>
+        
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/nihariChicken250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 300<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Nihari Chicken</h3>
+                        <p class="menu-item-details">Chicken Nihari is basically a stew dish made from succulent chicken pieces dipped into a spicy and fiery gravy made with a pool of aromatic spices, curd and slow cooked to the perfection.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/dabTangdiMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 380<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Dab Tangadi Masala</h3>
+                        <p class="menu-item-details">Marinated chicken legs, cooked in oil with bay leaves, green chillies, cumin & fennel seeds, green cardamom, etc.
+                            The red masala (gravy) with chicken has a pleasing taste and mouth-watering aroma.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC07</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/murghMusallam250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 950<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Murgh Mussallam</h3>
+                        <p class="menu-item-details">Murgh musallam (whole chicken) is a Mughlai dish.
+                            It consists of whole chicken marinated in a ginger-garlic paste, stuffed with boiled eggs and seasoned with spices like saffron, cinnamon, cloves, poppy seeds, cardamom and chilli.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC08</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/butterChicken250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 325<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Butter Chicken</h3>
+                        <p class="menu-item-details">Also known as Chicken Makhani, a classic dish where grilled chicken is simmered in a spicy, aromatic, buttery and creamy tomato gravy.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC09</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/bhattikaMurgh250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 315<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Bhattika Murgh</h3>
+                        <p class="menu-item-details">Bhatti means oven made with clay. Bhatti ka Murgh is an irresistible, spicy grilled chicken recipe in which chicken will be marinated in roasted onion and cashew paste with yogurt and other flavorful spices.
+                            The taste is very close to Tandoori Chicken but slightly different because of the roasted onion flavor.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC10</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/matkaMurgh250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 355<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Matka Murgh</h3>
+                        <p class="menu-item-details">Matka chicken is a fragrant and delectable chicken curry dish that uses dahi or yoghurt as a souring agent.
+                            The base gravy comprises of whole & powdered spices and sauteed onions. However, the real magic lies as curd gravy is imparted by the slow cooking in this evergreen earthen matka or clay pot.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC11</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/malwaniMurgh250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 295<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Malwani Murgh</h3>
+                        <p class="menu-item-details">Malwani style Chicken Curry is a spicy and flavourful chicken recipe from the coastal region of Maharashtra–Malvan.
+                            Authentic Malvani chicken curry is made with hot and aromatic homemade Malvani masala and lots of coconut.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC12</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/murghTarriwala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 295<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Murgh Tarriwala</h3>
+                        <p class="menu-item-details">The authentic Punjabi-style Chicken Tarriwala is a chicken curry made with whole spices and classic base onions of onions and tomatoes.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC13</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/chickenChettinad250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 295<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Chettinad</h3>
+                        <p class="menu-item-details">It consists of chicken marinated in yogurt, turmeric and a paste of red chillies, kalpasi, coconut, poppy seeds, coriander seeds, cumin seeds, fennel seeds, black pepper, ground nuts, onions, garlic and gingelly oil.
+                            It is served hot and garnished with coriander leaves.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC14</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/chickenMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 270<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Murgh Masala</h3>
+                        <p class="menu-item-details"> In Murgh Masala, chicken legs are marinated in a yogurt marinade and cooked on the bone in a spicy tomato onion gravy.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC15</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/chickenAwadiKorma250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 295<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Awadi Korma</h3>
+                        <p class="menu-item-details">Chicken Awadhi Korma is a famous chicken dish from the Awadh region.
+                            This creamy dish is made with chicken, spices & herbs and cooked in a gravy of onion with added some curd and cream.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC16</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/baidaMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Baida Masala</h3>
+                        <p class="menu-item-details">The gravy is simply made from roasted almonds, poppy seeds, sesame seeds, 
+                            freshly grated coconut that is ground to make creamy curry which is cooked along with boiled eggs.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+            
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC17</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/boiledEgg250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 60<span> (2 Egg)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Boiled Egg</h3>
+                        <p class="menu-item-details">Boiled eggs are eggs, typically from a chicken, cooked with their shells unbroken, usually by immersion in boiling water.
+                            Hard-boiled eggs are cooked so that the egg white and egg yolk both solidify.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>NVMC18</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/non-veg-main-course-category/masalaOmelette250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 90<span> (3 Egg)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Masala Omelette</h3>
+                        <p class="menu-item-details">Masala Omelette is made up of eggs jazzed up with tangy tomatoes, crunchy onions, peppy spice powders and other ingredients.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

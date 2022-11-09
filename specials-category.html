@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Raaga's Specials (RSP)</h2>
+        <div class="text-center">The dishes below are the delicasies of Raaga.
+            Their authenticities are maintained from time-to-time.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP01</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/nonVegKababPlatter250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 790<span> (Mutton)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Non-Veg Kabab Platter</h3>
+                        <p class="menu-item-details">This platter consistes of six different types of gravies applied to the mutton pieces.
+                            Each will be with 4 pieces. So, in all 24 pieces makes up the platter.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP02</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/gheeMutton250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 470/680<span> (Half/Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Ghee Mutton</h3>
+                        <p class="menu-item-details">Mutton Ghee roast is an delicious recipe from the Mangalorean Cuisine.
+                            This recipe is an excellent side dish for Chapthi, Dosa and also goes very well with plain rice.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP03</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/matkaGosht250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 365<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Matka Gosht</h3>
+                        <p class="menu-item-details">Matka gosht is also called Kunna. It's a delicious mutton stewed curry cooked in a pot.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP04</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/chickenGheeKukkad250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 420/540<span> (Half/Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chicken Ghee Kukkad</h3>
+                        <p class="menu-item-details">Special chicken preparation cooked in desi ghee and chefs special secret spice blend.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP05</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/vegPulao250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Pulao</h3>
+                        <p class="menu-item-details">The rice soaked in stock or broth, adding meat, spices and other ingredients such as vegetables 
+                            and employing some technique for achieving cooked grains that do not adhere.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>RSP06</div>
+                            <img class="img-responsive" width="250" height="150" src="images/specials-category/specialBiryani250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 375/525<span> (Chicken/Mutton)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Special Hyderabadi Dum Biryani</h3>
+                        <p class="menu-item-details">Hyderabadi Chicken Dum Biryani is a World famous Dish, it is made using chicken which is marinated then cooked and then is added to cooked rice and again cooked under dum.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

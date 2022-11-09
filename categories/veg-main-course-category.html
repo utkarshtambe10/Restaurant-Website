@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Veg (VMC)</h2>
+        <div class="text-center">Veg or Vegetarian cuisine is based on food that meets vegetarian standards.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/malaiKoftaMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Malai Kofta Masala</h3>
+                        <p class="menu-item-details">Potato/Paneer kofta is made with paneer and potato or with veggies like bottle gourd, mixed vegetables or raw banana.
+                            These are served with a rich, delicious and creamy gravy to which malai(cream) has been added.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/subzDiwaniHandi250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Subz Diwani Handi</h3>
+                        <p class="menu-item-details">Subzi Diwani Handi is a Mixed Vegetable dish in green(Spinach) or red Gravy.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/makkaiMushroomMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 210<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Makkai Mushroom Masala</h3>
+                        <p class="menu-item-details">A dish with makai(corn) and Mushroom.
+                            It is served with red gravy which contians tomatoes, red chilly powder, capsicum, lemon juice and cooked evenly.
+                            Finally, garnished with ginger, green chillies and coriander.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/vegJalfrezi250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Jalfrezi</h3>
+                        <p class="menu-item-details">A tasty and flavoured dry curry recipe made with a combination of vegetables in a unique street style tomato sauce.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/vegKadhai250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 200<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Kadhai</h3>
+                        <p class="menu-item-details">Made in a kadai (Indian wok) with Kadai masala, so this dish has a medley of onions, tomatoes, bell peppers and various assorted veggies together with spices and cream for a finger-licking gravy!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/alooGobiAdraki250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Aloo Gobi Adraki</h3>
+                        <p class="menu-item-details">Aloo Gobi Adraki is simple as it's name, a North Indian vegetarian sabzi or stir fry made with Potatoes and Cauliflower.
+                            The Sabzi is cooked with loads of ginger and select Indian spices.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC07</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/vegMaratha250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 190<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Maratha</h3>
+                        <p class="menu-item-details">Cutlets or vade made from veggies are dipped in spicy Maratha gravy and most favourite of all time.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC08</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/vegKolhapuri250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 170<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Kolhapuri</h3>
+                        <p class="menu-item-details">Veg Kolhapuri, a mixed vegetable curry with thick and spicy coconut based gravy, is a popular dish of Maharashtrian cuisine.
+                            This curry lives up to its name as it has very aromatic and spicy flavor that it gets from a specially blended curry masala powder.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+        
+        <h2 id="menu-categories-title" class="text-center">Paneer (VMC)</h2>
+        <div class="text-center">Paneer is an Indian cheese that's made from curdled milk and vegetable acid like lemon juice.
+            Take a look at the tasty and all-time favourite dishes below.</div>
+        
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC09</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/paneerButterMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Butter Masala</h3>
+                        <p class="menu-item-details">Paneer butter masala, also known as butter paneer is a rich and creamy gravy made with paneer, spices, onions, tomatoes, cashews and butter.
+                            As the name denotes, the curry is cooked in butterwhich imparts it's characteristic buttery flavor to the dish.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC10</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/jodhpuriMirchPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Jodhpuri Mirch Paneer</h3>
+                        <p class="menu-item-details">A simple paneer dish, initially started in city of Jodpur.
+                            It's gravy contians loads of red and green chillies, making it delicious and spicy.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC11</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/paneerShahiKorma250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Shahi Korma</h3>
+                        <p class="menu-item-details">Paneer Shahi Korma recipe is a creamy, rich and delicately flavored curry with a white gravy base made with almonds, onions, yogurt and spices.
+                            It becomes more shahi due to use of almonds in it.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC12</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/matarPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Matar Paneer</h3>
+                        <p class="menu-item-details">A popular Indian Curry dish made with green peas and Indian cottage cheese in red gravy, it has many different (and delicious) variations.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC13</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/kadhaiPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 210<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Kadhai Paneer</h3>
+                        <p class="menu-item-details">Kadhai Paneer is a spicy, warming, flavourful and super delicious difh made by cooking paneer and bell peppers in a fragnant, fresh ground spice powder also known as kadhai masala.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC14</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/paneerDoPyaza250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Do Pyaza</h3>
+                        <p class="menu-item-details">Paneer do pyaza is a rich, creamy curry of soft succulent paneer and plenty of onions in a wonderful medley of spices, herbs and tomatoes.
+                            Absolutely delish paneer recipe from the Mughlai cuisine.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC15</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/tawaMirchPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Tawa Mirch Paneer</h3>
+                        <p class="menu-item-details">A spicy semi-dry paneer dish which is made on a flat griddle (tawa).
+                            It has small cubes of paneer cooked with onions, tomatoes and lots of spices.
+                            A blend of green chillies adds a more spicier taste and hence named as Tawa Mirch Paneer.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC16</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/paneerDilruba250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 240<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Dilruba</h3>
+                        <p class="menu-item-details">This dish is made with roasting tomatoes and cashews together to form a yummy rich gravy which is infused with spices add to the richness of the soft paneer cubes.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC17</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/roganiPaneer250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 220<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Rogani Paneer</h3>
+                        <p class="menu-item-details">Paneer Rogani is a traditional Kashmiri Cuisine preparation usually made from ofcourse paneer.
+                            Beautifully crisp marinated, paneer is served with a rich rogan josh sauce and some intensely flavourful spiced chickpeas.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>VMC18</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/veg-main-course-category/paneerTikkaMasala250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 210<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paneer Tikka Masala</h3>
+                        <p class="menu-item-details">Paneer Tikka Masala is a delicious, creamy and flavourful Indian dish made by grilling paneer and then simmering it in a masala gravy.
+                            Paneer - Indian cottage cheese, tikka is a small chunk of grilled food and masala refers to a spiced gravy.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

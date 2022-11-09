@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Chawal ka Kamal (CK)</h2>
+        <div class="text-center">All types of rice dish mentioned below are ready to serve within 15mins of order placed.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/steamedRice250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 110<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Steamed Rice</h3>
+                        <p class="menu-item-details">Rice is boiled at high temperature and then served after it is cooked properly.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/jeeraRice250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 120<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Jeera Rice</h3>
+                        <p class="menu-item-details">An Indian dish consisting of rice and cumin seeds and decorated with Coriander leaf.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/vegPulao250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 170<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veg Pulao</h3>
+                        <p class="menu-item-details">Rice and vegetables with added spices and herbs, gives it a mild aromatic flavor. Usually, paired with raita, pickle and roasted papad.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/biryaniRice250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 135<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Biryani Rice</h3>
+                        <p class="menu-item-details">A mild flavored, aromatic rice dish usually served with raita or pickle.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/curdRice250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 125<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Curd Rice</h3>
+                        <p class="menu-item-details">Steamed rice and plain curd or with additional tempering of urad dal, mustard seeds, chillies, coriander leaves and steamed rice.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>CK06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/chawal-ka-kamal-category/dalKhichadi250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (Full)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Dal Khichadi</h3>
+                        <p class="menu-item-details">Dal Khichdi is a vegetarian lentil and rice one-pot meal. It is wholesome, fulfilling, and gluten-free Indian food recipe.
+                            Dal Khichdi laced with ghee and served with pickle, and raita is a comforting family favorite meal.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

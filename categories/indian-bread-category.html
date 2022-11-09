@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Indian Bread (IB)</h2>
+        <div class="text-center">All types of Indian Bread are served hot. They are freshly prepared after the order is placed.
+            The prices listed below are per-piece.
+        </div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/roti250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 25/35<span> (Normal/Butter)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Roti</h3>
+                        <p class="menu-item-details">It is made from stoneground whole wheat flour, traditionally known as gehu ka atta and water that is combined into a dough.
+                            Sometimes, butter is applied on top of it.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/naan250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 45/55/85<span> (Normal/Butter/Garlic)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Naan</h3>
+                        <p class="menu-item-details">Naan are flatbreads made with leavened dough which is cooked on a griddle (tawa) or a skillet on a stovetop.
+                            Alternatively, grilled in a tandoor or oven.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/paratha250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 60/80/90<span> (Kulcha/Narali/Stuffed)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Paratha</h3>
+                        <p class="menu-item-details">Yummy triangle shaped Indian flat-bread made of whole-wheat flour.
+                            There are various types of parathas that one can prepare eg. with filling of aloo, gobi, paneer, etc.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/neerDosa250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 90<span> (3 pieces)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Neer Dosa</h3>
+                        <p class="menu-item-details">A thin, soft and lacy crepe which, literally meaning water dosa in Tulu is a crêpe prepared from rice batter.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/appam250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 80<span> (2 pieces)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Appam</h3>
+                        <p class="menu-item-details">A type of pancake, made with fermented rice batter and coconut milk.
+                            Usually, served with green chutney or sambar.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>IB06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/indian-breads-category/assortedRotiBasket250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 460<span> (2 pieces each mentioned)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Assorted Roti Basket</h3>
+                        <p class="menu-item-details">This basket consists of different types of Indian Breads. It contains roti, naan, paratha, neer dosa and appam. 
+                            Also, one can drop the mentioned pieces and request for the other within specified quantity.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

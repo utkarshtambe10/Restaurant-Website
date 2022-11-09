@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Soups (SP)</h2>
+        <div class="text-center">There are variety of soups available both in veg and non-veg.
+            The rates mentioned are of '1 full' which can be divided as per customer's choice.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/mulligatawnySoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 125/135<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Mulligatawny Soup</h3>
+                        <p class="menu-item-details">Mulligatawny means 'pepper water' and curry is the particular ingredient that gives this incredible soup such a delicious flavor.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/greenCurriedMushroomSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 130<span> (Veg)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Green Curried Mushroom Soup</h3>
+                        <p class="menu-item-details">This aromatic green curry soup is packed with spinach, mushrooms, green beans and broccoli stems.
+                            The vegetables are cooked just enough to be tender, but retain their freshness and distinct textures.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/maggieleciousSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 115/135<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Maggielecious Soup</h3>
+                        <p class="menu-item-details">Simple but most-demanded soup which has similar taste to that of Maggi taste-maker.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/chilliCornSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 115/135<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Chilli Corn Soup</h3>
+                        <p class="menu-item-details">The soup with corn as its base and chilli playing a major role simultaneously in the taste.
+                            also, other vegetables added according to availability.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/tenderCoconutSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 125/135<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Tender Coconut Soup</h3>
+                        <p class="menu-item-details">This innovative form of soup has its characteristic flavor and sweetness of coconut water and the pieces of veggies and delicate coconut make it so tasty and filling.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP06</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/vegClearSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 95/135<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Clear Soup</h3>
+                        <p class="menu-item-details">Clear soup is usually made with veggies like carrots, french beans, mushrooms, cabbage, bok choy, cauliflower, broccoli, yellow onion, celery, etc.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP07</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/hotAndSourSoup250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 115/125<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Hot and Sour Soup</h3>
+                        <p class="menu-item-details">Hot and sour soup is a simple yet incredibly flavorful dish made with lots of fresh veggies and vibrant spices.
+                            It’s a spicy, sour and hot soup that’s popular in Indo-Chinese cuisine.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP08</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/vegManchowSoup250.png" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 115/125<span> (Veg/Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Manchow Soup</h3>
+                        <p class="menu-item-details">Manchow Soup is another popular soup recipe from Indian chinese cuisine.
+                            This hot and spicy veg soup is perfect to serve as an appetizer or with the main course like hakka noodles or fried rice</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP09</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/pandharaRassa250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 115<span> (Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Pandhara Rassa</h3>
+                        <p class="menu-item-details">Pandhra Rassa is a white colored flavored chicken gravy. This mouth-watering recipe is a specialty of Kolhapur.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>SP10</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/soup-category/tambadaRassa250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 135<span> (Chicken)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Tambada Rassa</h3>
+                        <p class="menu-item-details">Tambda Rassa is basically a Kolhapuri spicy chicken curry.
+                            Tambada Rassa is popular for its spiciness and red colour gravy as loads of spices and chillies are used.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+        </section>
+    </div>
+</body>
+</html>

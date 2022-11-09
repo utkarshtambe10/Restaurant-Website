@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="../index.html"><h1>Raaga.....</h1></a>
+                        <p>
+                            <span>Thali & Vegetarian/Non-Vegetarian Restaurant</span>
+                        </p>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="../index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                            </li>
+                            <li>
+                                <a href="../about.html">
+                                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                                </a>
+                            </li>
+                            <li id="phone" class="hidden-xs">
+                                <a href="tel:8888077799">
+                                    <span>8888077799</span></a><div>Free Delivery*</div>
+                            </li>
+                    </ul> <!-- #nav-list -->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!-- #header-nav -->
+    </header> <!--End of Header-->
+    
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:8888077799">
+            <span class="glyphicon glyphicon-earphone"></span>
+            8888077799
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">Free Delivery*</div>
+
+    <!--Home Page-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Kuch Chatpata (KC)</h2>
+        <div class="text-center">The chat items are listed below. Have a look at them. These itmes are usually served before starters.</div>
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>KC01</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/kuch-chatpata-category/roastedPapad250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 20<span> (4 pieces)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Roasted Papad</h3>
+                        <p class="menu-item-details">A traditional accompaniment to rice and dal in Indian cuisine usually made of different dals which is baked at mild temperatures.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>KC02</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/kuch-chatpata-category/masalaPapad250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 40<span> (4 pieces)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Masala Papad</h3>
+                        <p class="menu-item-details">Crisp fried papads topped with a masala filling of onions, tomatoes and spices.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>KC03</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/kuch-chatpata-category/boondiRaita250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 95<span> (Chinese Bowl)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Boondi Raita</h3>
+                        <p class="menu-item-details">A classic yoghurt based salad or dip recipe made with deep fried boondi pearls.
+                            It is typically served as cooling dip served with roti, chapati or for rice based dishes like pulav or biryani.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>KC04</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/kuch-chatpata-category/greenSalad250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 95<span> (One Plate)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Green Salad</h3>
+                        <p class="menu-item-details">A plate full-of green salad available according to the season present. It consists of: mixed greens, red leaf lettuce, green leaf lettuce and spinach.
+                            Cucumber, cherry Tomatoes, and sometimes radish.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+            <!-- Add after every 2nd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>KC05</div>
+                            <img class="img-responsive" width="250" height="150" src="../images/menu-categories/kuch-chatpata-category/cheesyNachos250.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">Rs. 180<span> (12-medium pieces)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Cheesy Nachos</h3>
+                        <p class="menu-item-details">Tortila chips baked with cheese spread over it and sprinkled with pepper, salt and red-chilli powder.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
